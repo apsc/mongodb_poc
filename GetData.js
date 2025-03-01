@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 async function getOneRestaurantDocument() {
-  const client = new MongoClient('mongodb+srv://amanpsc2:Y1EoXsq9QGAVdmWc@imt576.0z0jy.mongodb.net/');
+  const client = new MongoClient('mongodb+srv://amanpsc2:@imt576.0z0jy.mongodb.net/');
 
   try {
     // Connect to MongoDB Atlas

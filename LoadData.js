@@ -73,7 +73,7 @@ async function importData() {
 
 
 async function testDataLoad() {
-  const client = new MongoClient('mongodb+srv://amanpsc2:Y1EoXsq9QGAVdmWc@imt576.0z0jy.mongodb.net/');
+  const client = new MongoClient('mongodb+srv://amanpsc2:@imt576.0z0jy.mongodb.net/');
 
   try {
     // Connect to the MongoDB server
